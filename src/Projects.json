@@ -1,0 +1,44 @@
+[
+  {
+    "logo": "/images/epesis_logo.png",
+    "link": "https://epesis.fi/#/",
+    "name": "ePesis",
+    "path": "epesis",
+    "info": "ePesis is a finnish baseball analysis software used by every main league finnish baseball team in Finland. ePesis was first intrduced for the 2020 season. ePesis was developed by me and junior finnish baseball players from Jyväskylä analyze the games for the teams during the summer. ePesis took over the market by providing a superior and streamlined user experience with a broader set of features. I still run the service as a side business to this day. ",
+    "stack": [0, 1, 4, 7, 5, 6, 12],
+    "screenshots": [
+      "/images/epesis/epesis1.png",
+      "/images/epesis/epesis2.png",
+      "/images/epesis/epesis3.png",
+      "/images/epesis/epesis4.png",
+      "/images/epesis/epesis5.png",
+      "/images/epesis/epesis6.png"
+    ]
+  },
+  {
+    "logo": "/images/kepitlogo.png",
+    "link": "https://kepit.tv/#/c/kepiteventstream/e/OSONAROS3N",
+    "name": "Kepit TV",
+    "path": "kepittv",
+    "info": "Kepit EventStream is streaming service used to stream broadcasts for thousands of eyepairs monthly. I developed the frontend and the chat backend of the software. The chats backend was built to be fully serverless which seemed to be he best fit for the usecase. The traffic is very spiky, but might go fully unused for long periods. API Gateway and Lambda with a DynamoDB NoSQL database take care of this. ",
+    "stack": [0, 7, 5, 11],
+    "screenshots": [
+      "/images/kepittv/kepit1.png",
+      "/images/kepittv/kepit2.png",
+      "/images/kepittv/kepit3.png"
+    ]
+  },
+  {
+    "name": "Data-analysis",
+    "link": "jea",
+    "path": "nerdstuff",
+    "info": "I have had the chance to do data analysis off of the data produced by ePesis regarding finnish baseball. Our unique dataset of three years povides very interesting insight into the game. The top organization of finnish baseball - Pesäpalloliitto - ordered a brief analysis in 2022. Before that I created a report for the head coaches of all the main league teams.  ",
+    "stack": [3, 10]
+  },
+  {
+    "name": "akukettunen.com",
+    "path": "akukettunen",
+    "info": "I decided to create this portfolio website with React to refresh my memory. I learned React when attending the MOOC course ”Full Stack 2020” provided by the University of Helsinki.",
+    "stack": [8, 9, 12]
+  }
+]

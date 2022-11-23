@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "Vue",
+    "logo": "/images/vuejs.png"
+  },
+  {
+    "id": 1,
+    "name": "Node",
+    "logo": "/images/nodejs.png"
+  },
+  {
+    "id": 3,
+    "name": "Pandas",
+    "logo": "/images/pandas.png"
+  },
+  {
+    "id": 4,
+    "name": "Vuetify",
+    "logo": "/images/vuetify.png"
+  },
+  {
+    "id": 5,
+    "name": "DDB",
+    "logo": "/images/dynamodb.png"
+  },
+  {
+    "id": 6,
+    "name": "MySQL",
+    "logo": "/images/mysql.png"
+  },
+  {
+    "id": 7,
+    "name": "AWS",
+    "logo": "/images/aws.png"
+  },
+  {
+    "id": 8,
+    "name": "React",
+    "logo": "/images/react.png"
+  },
+  {
+    "id": 9,
+    "name": "MUI",
+    "logo": "/images/mui.png"
+  },
+  {
+    "id": 10,
+    "name": "MatPlotLib",
+    "logo": "/images/matplotlib.png"
+  },
+  {
+    "id": 11,
+    "name": "API Gateway",
+    "logo": "/images/apigateway.png"
+  },
+  {
+    "id": 12,
+    "name": "S3",
+    "logo": "/images/s3.png"
+  }
+]

@@ -1,0 +1,73 @@
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  padding-left: 3.6em;
+  margin: 0 auto;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 1em 0 1em 3.6em;
+  background-color: white;
+  z-index: 1;
+}
+
+.navigator > .button {
+  text-transform: none;
+}
+
+.stacks {
+  display: flex;
+  flex-direction: row;
+}
+
+.stackCard {
+  text-align: center;
+  max-width: 50px;
+  margin: 0 20px 0 0;
+}
+.stackImage {
+  height: 30px;
+  width: 30px;
+}
+
+.projectLogo {
+  max-height: 100%;
+}
+
+.screenshotList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.screenshotListImage {
+  max-width: 500px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.screenshotListImage--image {
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  -ms-user-select:none; 
+  user-select:none;
+  -o-user-select:none;
+}
+
+.screenshotListImage:hover {
+  opacity: 0.6;
+}
+
+.modalArrow { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.modalArrow:hover {
+  background-color: rgb(185, 183, 183);
+}
